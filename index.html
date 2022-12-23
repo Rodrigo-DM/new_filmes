@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://kit.fontawesome.com/e5d1559eb4.js" crossorigin="anonymous"></script>
     <title>New Filmes</title>
 </head>
 <body>
-    <header>
+    <header class="topbar">
         <h1>New Filmes</h1>
+        <form class="search">
+            <input class="search-field" type="search" name="pesquisa" placeholder="Digite o nome do filme ou serie" />
+            <button class="search-button" type="submit">
+                <img src="./assets/icons8-search.svg" alt="">
+            </button>
+        </form>
     </header>
-    <form>
-        <input type="search" name="pesquisa" placeholder="Digite o nome do filme ou serie" />
-        <input type="submit" value="Go!" />
-    </form>
     <nav>
         <ul>
             <li><a href="#">Filmes</a></li>

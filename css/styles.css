@@ -1,1 +1,44 @@
-/* Estilar paginas */
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    height: 80px;
+}
+
+.topbar h1 {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search {
+    height: 40px;
+    position: relative;
+}
+
+.search-field {
+    border-radius: 25px;
+    height: 40px;
+    width: 300px;
+    border: none;
+    padding-left: 15px;
+}
+
+.search-button {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    height: 32px;
+    width: 32px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(201, 162, 162);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button img {
+    height: 75%;
+}

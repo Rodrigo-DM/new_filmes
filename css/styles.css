@@ -1,3 +1,7 @@
+body {
+    background-color: #9400D3;
+}
+
 .topbar {
     display: flex;
     align-items: center;
@@ -42,6 +46,7 @@
 .search-button img {
     height: 75%;
 }
+
 /* conf. menu */
 nav#menu {
     display: block;
@@ -50,10 +55,11 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: absolute; 
-    padding-left: 300px;  
+    position: absolute;
+    padding-left: 30px;
 
 }
+
 nav#menu li {
     display: inline-block;
     background-color: #dddddd;
@@ -64,13 +70,58 @@ nav#menu li {
     border-radius: 50px 50px 50px;
     transition: 1s;
 }
+
 nav#menu li:hover {
     background-color: #606060;
 }
+
 nav#menu a:hover {
     color: #ffffff;
 }
+
 nav#menu a {
     color: black;
     text-decoration: none;
+}
+
+.lancamentos {
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    background-color: red;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 470px;
+
+}
+
+.destaque {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 40%;
+    background-color: black;
+    padding: 5px;
+    width: 250px;
+}
+
+.anuncios {}
+
+#anuncio01 {
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 70%;
+
+}
+
+#anuncio02 {
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 10%;
+
+}
+
+.croket {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 10%;
 }
